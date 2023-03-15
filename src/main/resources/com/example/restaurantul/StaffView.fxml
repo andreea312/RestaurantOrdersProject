@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="Infinity" maxWidth="Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurantul.controllers.StaffController">
+   <center>
+      <TableView fx:id="tablePlacedOrders" prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="orderingTableColumn" prefWidth="50.0" text="Table" />
+          <TableColumn fx:id="orderDateColumn" prefWidth="250.0" text="Date" />
+            <TableColumn fx:id="orderedItemsColumn" prefWidth="300.0" text="Items" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
